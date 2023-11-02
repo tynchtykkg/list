@@ -1,4 +1,6 @@
 void main(){
   List<String> seventhTask = ["I", "Started", "Learn", "Flutter", "Since", "October"];
-  print(seventhTask.join(" * "));
+  String myFlutter;
+  myFlutter = seventhTask.join(' * ');
+  print(myFlutter);
 }

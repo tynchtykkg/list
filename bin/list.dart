@@ -13,7 +13,6 @@ void main(){
   print(salary.isNotEmpty); //Whether this collection has at least one element.
   print(salary.indexed); //Pairs of elements of the indices and elements of this iterable.
   print(salary.indexed.toList()); //Creates a [List] containing the elements of this [Iterable].
-  print('JOIN');
   print(salary.join()); //Converts each element to a [String] and concatenates the strings.
   print(salary.join().runtimeType);
   print(salary.join(', ')); //Converts each element to a [String] and concatenates the strings. there is , between elements

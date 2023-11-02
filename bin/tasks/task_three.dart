@@ -3,4 +3,5 @@ void main(){
   flutter.removeRange(0, 2);
   flutter.removeRange(7, 12);
   print(flutter);
+  print(flutter.join());
 }
